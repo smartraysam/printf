@@ -11,7 +11,9 @@ int main(void)
 {
     int len;
     int len2;
+    void *addr;
 
+    addr = (void *)0x7ffe637541f0;
     _printf("Character:[%c]\n", 'H');
     printf("Character:[%c]\n", 'H');
     _printf("String:[%s]\n", "I am a string !");
@@ -23,5 +25,7 @@ int main(void)
     _printf("Length:[%d, %i]\n", len, len);
     printf("Length:[%d, %i]\n", len2, len2);
     _printf("%b\n", 98);
+    _printf("Address:[%p]\n", addr);
+    printf("Address:[%p]\n", addr);
     return (0);
 }
