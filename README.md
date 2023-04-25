@@ -53,3 +53,5 @@ Handle the following conversion specifiers: b
 ## Task 3 
 
 Handle the following conversion specifiers:u,o,x,X.  
+## Task 4
+Use a local buffer of 1024 chars in order to call *```write```.*
