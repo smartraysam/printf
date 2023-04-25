@@ -60,7 +60,7 @@ void write_format(va_list *args_list, fmt_info_t *fmt_info)
 		{'d', convert_fmt_di},
 		{'i', convert_fmt_di},
 		{'b', convert_fmt_b},
-                {'u', convert_fmt_u},
+		{'u', convert_fmt_u},
 		{'o', convert_fmt_o},
 		{'X', convert_fmt_xX},
 		{'x', convert_fmt_xX},
@@ -130,6 +130,7 @@ int write_to_buffer(char c, char action)
 		i++;
 		chars_count++;
 	}
+
 	if (i >= 1024 || action == 1)
 	{
 		out = write(1, buffer, i);
@@ -137,15 +138,18 @@ int write_to_buffer(char c, char action)
 		i = 0;
 		mem_set(buffer, 1024, 0);
 	}
+
 	if (action == -1)
 	{
 		i = 0;
 		chars_count = 0;
 		mem_set(buffer, 1024, 0);
 	}
+
 	if (action == -2)
 	{
 		return (chars_count);
 	}
+
 	return (out);
 }
