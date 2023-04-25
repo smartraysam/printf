@@ -49,3 +49,7 @@ You don’t have to handle the length modifiers.
 Handle the following conversion specifiers: d & i
 ## Task 2
 Handle the following conversion specifiers: b
+
+## Task 3 
+
+Handle the following conversion specifiers:u,o,x,X.  
