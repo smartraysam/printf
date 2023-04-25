@@ -27,5 +27,6 @@ int main(void)
     _printf("%b\n", 98);
     _printf("Address:[%p]\n", addr);
     printf("Address:[%p]\n", addr);
+    _printf("Unknown:[%r]\n");
     return (0);
 }
