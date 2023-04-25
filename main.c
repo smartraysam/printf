@@ -22,5 +22,7 @@ int main(void)
     printf("Len:[%d]\n", len2);
     _printf("Length:[%d, %i]\n", len, len);
     printf("Length:[%d, %i]\n", len2, len2);
+    printf("%b\n", 98);
+    _printf("%b\n", 98);
     return (0);
 }
