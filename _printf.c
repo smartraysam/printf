@@ -67,6 +67,7 @@ void write_format(va_list *args_list, fmt_info_t *fmt_info)
 		{'S', convert_fmt_S},
 		{'p', convert_fmt_p},
 		{'r', convert_fmt_r},
+		{'R', convert_fmt_R},
 	};
 
 	for (i = 0; i < 23 && spec_printers[i].spec != '\0'; i++)
