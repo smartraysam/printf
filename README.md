@@ -59,3 +59,29 @@ Use a local buffer of 1024 chars in order to call *```write```.*
 ## Task 6
 
 Handled *```p```* specifier 
+
+## Tash 7
+
+
+## Task 8
+
+
+## Task 9
+
+
+
+## Task 10
+
+## Task  11
+
+
+## Task 12
+
+
+## Task 13
+
+Handle the following custom conversion specifier:
+
+r : prints the reversed string.
+
+
